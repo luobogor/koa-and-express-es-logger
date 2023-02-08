@@ -1,0 +1,17 @@
+{
+  "name": "@my-es-log/express-logger",
+  "version": "1.0.7",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "scripts": {
+    "pub": "pnpm publish",
+    "pub:beta": "pnpm publish --tag beta"
+  },
+  "dependencies": {
+    "on-finished": "2.4.1",
+    "@my-es-log/common-logger": "workspace:^"
+  },
+  "license": "ISC"
+}

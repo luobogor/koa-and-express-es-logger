@@ -1,0 +1,22 @@
+{
+  "name": "test-express-logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "dev:not-sls": "ES_LOGGER_DEBUGGER=1 nodemon index.js",
+    "dev:sls": "ES_LOGGER_DEBUGGER=1 SERVERLESS=1 nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "@my-es-log/express-logger": "workspace:*",
+    "body-parser": "~1.12.4",
+    "express": "~4.12.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  },
+  "license": "ISC"
+}

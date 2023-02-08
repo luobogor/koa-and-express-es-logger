@@ -1,0 +1,20 @@
+{
+  "name": "simple-es-logger-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "koa": "^2.5.2",
+    "winston": "3.4.0",
+    "winston-elasticsearch": "0.16.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  },
+  "license": "ISC"
+}

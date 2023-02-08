@@ -1,0 +1,39 @@
+{
+  "name": "koa-and-express-es-logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint:fix": "eslint . --ext .js --fix --cache",
+    "prepare": "husky install",
+    "cz": "git-cz"
+  },
+  "keywords": [],
+  "author": "jinzhan.ye@zhenia.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@commitlint/cli": "16.3.0",
+    "@commitlint/config-conventional": "16.2.4",
+    "cz-conventional-changelog": "3.3.0",
+    "cz-customizable": "6.3.0",
+    "eslint": "7.32.0",
+    "eslint-plugin-import": "2.26.0",
+    "eslint-plugin-node": "11.1.0",
+    "husky": "8.0.1",
+    "lint-staged": "13.0.2"
+  },
+  "lint-staged": {
+    "packages/**/*.{js}": [
+      "eslint --cache --fix"
+    ]
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "engineStrict": true,
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    }
+  }
+}

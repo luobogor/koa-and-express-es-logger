@@ -1,0 +1,16 @@
+{
+  "name": "@my-es-log/koa-logger",
+  "version": "1.0.7",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "scripts": {
+    "pub": "pnpm publish",
+    "pub:beta": "pnpm publish --tag beta"
+  },
+  "dependencies": {
+    "@my-es-log/common-logger": "workspace:^"
+  },
+  "license": "ISC"
+}
